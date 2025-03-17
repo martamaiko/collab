@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.postContainer {
+  width: 700px;
+  border-top: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  padding: 20px;
+}
+
+.userdata {
+  display: flex;
+  flex-direction: row;
+}
+.userdatatext {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  object-fit: cover;
+  background-color: #EFEFEF;
+}
+.avatarIcon {
+  width: 24px;
+  height: 24px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0C0C0C;
+  margin-bottom: 2px;
+}
+.email {
+  color: #0C0C0C;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.message {
+  margin: -5px 0 12px 52px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #0C0C0C;
+}
+
+.reactions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 52px;
+}
+
+.likes, .comments {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #0C0C0C;
+}
+
+.likeIcon, .commentIcon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

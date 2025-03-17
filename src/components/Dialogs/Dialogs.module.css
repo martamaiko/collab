@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.dialogs {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: 100%;
+  font-family: "Poppins";
+}
+
+.dialogsItems {
+  border-right: 1px solid #E5E5E5;
+  box-sizing: border-box;
+}
+.headerChatsList {
+  height: 60px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  margin: 0 24px;
+  padding: 9px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E5E5E5;
+  text-decoration: none;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  object-fit: cover;
+  background-color: #EFEFEF;
+}
+.avatarIcon {
+  width: 24px;
+  height: 24px;
+}
+.dialogsItemText {
+  font-size: 14px;
+  line-height: 20px;
+}
+.name {
+  font-weight: 500;
+  color: #0C0C0C;
+}
+.messagePreview {
+  color: #5D5B67;
+}
+.chatWindowContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.headerChat {
+  height: 60px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 24px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+}
+.headerChatText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.openUserName {
+  font-size: 16px;
+  color: #0C0C0C;
+}
+.openUserEmail {
+  font-size: 14px;
+  color: #858585; 
+}
+.messages {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 16px;
+}
+.message {
+  padding: 8px 16px; 
+  color: #FFFFFF;
+  background-color: #6661EE;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  align-self: flex-end;
+  max-width: 65%;
+}
+.message:nth-child(odd) {
+  align-self: flex-start;
+  background-color: #E5E5E5;
+  color: #0C0C0C;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  border-top: 1px solid #E5E5E5;
+}
+.input {
+  resize: none;
+  height: 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #0C0C0C;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Poppins";
+}
+.postButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6661EE;
+  border-radius: 76px;
+  padding: 8px 16px 8px 12px;
+  border: none;
+  width: 80px;
+  gap: 6px;
+  cursor: pointer;
+}
+.buttonText {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-family: "Poppins";
+}

@@ -1,0 +1,123 @@
+.pageContainer {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.usersContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.usersContainer > :not(:first-child){
+    border-top: 1px solid #E5E5E5;
+}
+.users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    padding: 16px 20px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #0C0C0C;
+    margin: 16px 0;
+    margin-right: auto;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: cover;
+    background-color: #EFEFEF;
+}
+.avatarIcon {
+    height: 24px;
+    width: 24px;
+}
+.userDataText {
+    margin-left: 12px;
+}
+.username {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0C0C0C;
+}
+.useremail {
+    font-size: 14px;
+    color: #5D5B67;
+    line-height: 20px;
+}
+
+.button {
+    margin-left: auto;
+    
+}
+.followButton, .unfollowButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-weight: 500;
+    border-radius: 76px;
+    cursor: pointer;
+    border: 1px solid #E5E5E5;
+    color: #0C0C0C;
+    background-color: transparent;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    flex-direction: row;
+    gap: 8px;
+    margin: 16px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.pageNumber {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5D5B67;
+}
+
+.selectedPage {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #E1E2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6661EE;
+}

@@ -1,0 +1,120 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 152px;
+}
+
+.form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 0px 32px;
+    font-size: 16px;
+    min-height: 120px;
+    margin: -72px auto 0 auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 32px;
+    color: #0C0C0C;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.inputWrapper {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 100px;
+    padding: 0px 16px;
+
+    color: #0C0C0C;
+    font-size: 14px;
+    line-height: 20px;
+}
+.input:focus {
+    border: 2px solid #6661EE;
+    outline: none;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0C0C0C;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+}
+
+.button {
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-weight: 600;
+    border-radius: 76px;
+    cursor: pointer;
+     
+    background-color: #6661EE;
+    border: 2px solid #6661EE;
+    color: #ffffff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #525259;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+}
+
+.link {
+    color: #6661EE;
+    font-weight: 600;
+    -webkit-text-decoration: none;
+    text-decoration: underline;
+    outline-offset: 0;
+    cursor: pointer;
+    -webkit-user-select: auto;
+    user-select: auto;
+    margin-left: 4px;
+}
+
+.inputError {
+    border: 2px solid #972121;
+}
+.inputError:focus {
+    border: 2px solid #972121 !important;
+    outline: none;
+}
+.errors {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2px;
+    color: #972121;
+    text-align: left;
+    font-size: 14px;
+}
+.error {
+    text-align: center;
+    color: #972121;
+    font-size: 14px;
+}

@@ -1,0 +1,79 @@
+.myPostsContainer {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E5E5E5;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 36px;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    margin: 16px 20px;
+    height: 100%;
+}
+.postInput {
+    resize: none;
+    width: 660px;
+    box-sizing: border-box;
+    height: 40px;
+    color: #0C0C0C;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0 10px 52px;
+    font-family: "Poppins";
+    border: none;
+}
+.postInput::placeholder {
+    color: #858585;
+}
+.postInput:focus {
+    outline: none;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: cover;
+    background-color: #EFEFEF;
+    position: relative;
+    z-index: 2;
+    margin-right: -40px;
+}
+.avatarIcon {
+    width: 24px;
+    height: 24px;
+}
+.plusIcon {
+    fill: currentColor;
+    width: 26px;
+    height: 26px;
+  }
+  .postButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6661EE;
+    border-radius: 76px;
+    padding: 8px 16px 8px 12px;
+    border: none;
+    width: 80px;
+    gap: 6px;
+    cursor: pointer;
+    margin-left: -80px;
+  }
+  .buttonText {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
