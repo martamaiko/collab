@@ -15,7 +15,7 @@ const App = (props) => {
   const isAuth = useSelector(state => state.auth.isAuth);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className={isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
        <HeaderContainer />
         <NavbarContainer />
