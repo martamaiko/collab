@@ -1,7 +1,7 @@
 {
   "name": "react-app-01",
   "version": "0.1.0",
-  "homepage": "https://martamaiko.github.io/collab/",
+  "homepage": "https://martamaiko.github.io/colla/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -14,6 +14,12 @@ import SignUp from './components/SignUp/SignUp';
 const App = (props) => { 
   const isAuth = useSelector(state => state.auth.isAuth);
 
+  useEffect(() => {
+    if (!isAuth) {
+      <Navigate to="/login" replace />;
+    }
+  }, [isAuth]);
+  
   return (
     <Router>
       <div className={isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>

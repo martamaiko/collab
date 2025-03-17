@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/collab/static/css/main.c366d8fa.css",
-    "main.js": "/collab/static/js/main.b5effc79.js",
+    "main.js": "/collab/static/js/main.4a114976.js",
     "static/js/453.58545321.chunk.js": "/collab/static/js/453.58545321.chunk.js",
     "static/media/Logo.svg": "/collab/static/media/Logo.611b0b4083b86133e2aa6fb6ab3f67f5.svg",
     "static/media/inDevelopment.svg": "/collab/static/media/inDevelopment.9780fb4690681dedea17b4a706c66567.svg",
@@ -17,11 +17,11 @@
     "index.html": "/collab/index.html",
     "static/media/fade-stagger-circles.svg": "/collab/static/media/fade-stagger-circles.8b52f9b93a3361fdc15be20454022e65.svg",
     "main.c366d8fa.css.map": "/collab/static/css/main.c366d8fa.css.map",
-    "main.b5effc79.js.map": "/collab/static/js/main.b5effc79.js.map",
+    "main.4a114976.js.map": "/collab/static/js/main.4a114976.js.map",
     "453.58545321.chunk.js.map": "/collab/static/js/453.58545321.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c366d8fa.css",
-    "static/js/main.b5effc79.js"
+    "static/js/main.4a114976.js"
   ]
 }
