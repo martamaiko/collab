@@ -7,7 +7,7 @@ import ProfileContainer from './components/Profile/ProfileContainer'
 import DialogsContainer from './components/Dialogs/DialogsContainer';
 import UsersContainer from './components/Users/UsersContainer';
 import SettingsContainer from './components/Settings/SettingsContainer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
 
@@ -15,7 +15,7 @@ const App = (props) => {
   const isAuth = useSelector(state => state.auth.isAuth);
 
   return (
-    <Router basename="/collab">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
        <HeaderContainer />
         <NavbarContainer />
