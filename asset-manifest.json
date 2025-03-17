@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/martamaiko/collab.git/static/css/main.c366d8fa.css",
-    "main.js": "/martamaiko/collab.git/static/js/main.e0965d29.js",
-    "static/js/453.58545321.chunk.js": "/martamaiko/collab.git/static/js/453.58545321.chunk.js",
-    "static/media/Logo.svg": "/martamaiko/collab.git/static/media/Logo.611b0b4083b86133e2aa6fb6ab3f67f5.svg",
-    "static/media/inDevelopment.svg": "/martamaiko/collab.git/static/media/inDevelopment.9780fb4690681dedea17b4a706c66567.svg",
-    "static/media/settingIcon.svg": "/martamaiko/collab.git/static/media/settingIcon.ae378aabd8c4f213c03d61e952be39c0.svg",
-    "static/media/usersIcon.svg": "/martamaiko/collab.git/static/media/usersIcon.80c09d871ca0c1052275cc78151ae03b.svg",
-    "static/media/profileIcon.svg": "/martamaiko/collab.git/static/media/profileIcon.867f5ff54f0dd777d0e3afa1a8f27bde.svg",
-    "static/media/exit.svg": "/martamaiko/collab.git/static/media/exit.ffa3296ef5b97cee65859f4cb67250f9.svg",
-    "static/media/userIcon.svg": "/martamaiko/collab.git/static/media/userIcon.3add3437fe3151515973854db3e3ca14.svg",
-    "static/media/postIcon.svg": "/martamaiko/collab.git/static/media/postIcon.e6bb8cb624eb610309467ac4801dadc3.svg",
-    "static/media/heart-alt.svg": "/martamaiko/collab.git/static/media/heart-alt.f485aabd3fea9820b0c43decdae04ff0.svg",
-    "static/media/chatsIcon.svg": "/martamaiko/collab.git/static/media/chatsIcon.4b06d951880354512158c4b49f7cfc41.svg",
-    "static/media/comment.svg": "/martamaiko/collab.git/static/media/comment.1b2d3fc92867f7fbf964fda01ab41aa2.svg",
-    "index.html": "/martamaiko/collab.git/index.html",
-    "static/media/fade-stagger-circles.svg": "/martamaiko/collab.git/static/media/fade-stagger-circles.8b52f9b93a3361fdc15be20454022e65.svg",
-    "main.c366d8fa.css.map": "/martamaiko/collab.git/static/css/main.c366d8fa.css.map",
-    "main.e0965d29.js.map": "/martamaiko/collab.git/static/js/main.e0965d29.js.map",
-    "453.58545321.chunk.js.map": "/martamaiko/collab.git/static/js/453.58545321.chunk.js.map"
+    "main.css": "/collab/static/css/main.c366d8fa.css",
+    "main.js": "/collab/static/js/main.662028d4.js",
+    "static/js/453.58545321.chunk.js": "/collab/static/js/453.58545321.chunk.js",
+    "static/media/Logo.svg": "/collab/static/media/Logo.611b0b4083b86133e2aa6fb6ab3f67f5.svg",
+    "static/media/inDevelopment.svg": "/collab/static/media/inDevelopment.9780fb4690681dedea17b4a706c66567.svg",
+    "static/media/settingIcon.svg": "/collab/static/media/settingIcon.ae378aabd8c4f213c03d61e952be39c0.svg",
+    "static/media/usersIcon.svg": "/collab/static/media/usersIcon.80c09d871ca0c1052275cc78151ae03b.svg",
+    "static/media/profileIcon.svg": "/collab/static/media/profileIcon.867f5ff54f0dd777d0e3afa1a8f27bde.svg",
+    "static/media/exit.svg": "/collab/static/media/exit.ffa3296ef5b97cee65859f4cb67250f9.svg",
+    "static/media/userIcon.svg": "/collab/static/media/userIcon.3add3437fe3151515973854db3e3ca14.svg",
+    "static/media/postIcon.svg": "/collab/static/media/postIcon.e6bb8cb624eb610309467ac4801dadc3.svg",
+    "static/media/heart-alt.svg": "/collab/static/media/heart-alt.f485aabd3fea9820b0c43decdae04ff0.svg",
+    "static/media/chatsIcon.svg": "/collab/static/media/chatsIcon.4b06d951880354512158c4b49f7cfc41.svg",
+    "static/media/comment.svg": "/collab/static/media/comment.1b2d3fc92867f7fbf964fda01ab41aa2.svg",
+    "index.html": "/collab/index.html",
+    "static/media/fade-stagger-circles.svg": "/collab/static/media/fade-stagger-circles.8b52f9b93a3361fdc15be20454022e65.svg",
+    "main.c366d8fa.css.map": "/collab/static/css/main.c366d8fa.css.map",
+    "main.662028d4.js.map": "/collab/static/js/main.662028d4.js.map",
+    "453.58545321.chunk.js.map": "/collab/static/js/453.58545321.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c366d8fa.css",
-    "static/js/main.e0965d29.js"
+    "static/js/main.662028d4.js"
   ]
 }
