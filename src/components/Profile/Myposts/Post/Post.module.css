@@ -16,7 +16,7 @@
 }
 .userdatatext {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-left: 12px;
 }
 .avatar {
@@ -48,7 +48,7 @@
   font-weight: 500;
 }
 .message {
-  margin: -5px 0 12px 52px;
+  margin: -14px 0 6px 52px;
   line-height: 20px;
   font-size: 14px;
   color: #0C0C0C;
