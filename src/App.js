@@ -10,16 +10,15 @@ import UsersContainer from './components/Users/UsersContainer';
 import SettingsContainer from './components/Settings/SettingsContainer';
 import Login from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
+import { connect } from 'react-redux';
 
 const App = (props) => {
-  if (!this.props.isAuth) return <Navigate to={"/login"} />;
-  console.log({isAuth})
-  
+  console.log(props.isAuth)
   return (
     <Router>
-      <div className={isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
+      <div className={props.isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
         <HeaderContainer />
-        {isAuth && <NavbarContainer />}
+        <NavbarContainer />
         <div className='app-wrapper-content'>
           <Routes>
             <Route path="/profile/:userId?" element={<ProfileContainer />} />

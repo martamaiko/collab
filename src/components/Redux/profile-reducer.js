@@ -54,8 +54,7 @@ export const fetchProfile = () => {
   return async (dispatch) => {
       dispatch(toggleIsFetching(true));
       try {
-          const data = await getProfile(); 
-          console.log(localStorage.getItem("token"));
+          const data = await getProfile();
           dispatch(toggleIsFetching(false)); 
           
           if (data && typeof data === "object") {
