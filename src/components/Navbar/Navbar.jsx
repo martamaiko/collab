@@ -11,12 +11,6 @@ import Logo from "../../assets/images/Logo.svg";
 
 
 const Navbar = (props) => {
-  const location = useLocation();
-  const hideNavbar = location.pathname === '/login' || location.pathname === '/signUp';
-
-  if (hideNavbar) {
-    return null; 
-  }
 
   return  <div className={s.navContainer}>
     <nav className={s.nav}>
