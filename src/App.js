@@ -12,6 +12,7 @@ import Login from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
 
 const App = (props) => {
+  if (!this.props.isAuth) return <Navigate to={"/login"} />;
   
   return (
     <Router>
