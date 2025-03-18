@@ -13,7 +13,6 @@ import SignUp from './components/SignUp/SignUp';
 import { connect } from 'react-redux';
 
 const App = (props) => {
-  console.log(props.isAuth)
   return (
     <Router>
       <div className={props.isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
