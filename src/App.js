@@ -11,9 +11,8 @@ import SettingsContainer from './components/Settings/SettingsContainer';
 import Login from './components/SignIn/SignIn';
 import SignUp from './components/SignUp/SignUp';
 
-const App = (props) => { 
-  const isAuth = useSelector(state => state.auth.isAuth);
-
+const App = (props) => {
+  
   return (
     <Router>
       <div className={isAuth ? "app-wrapper-isAuth" : "app-wrapper-noAuth"}>
@@ -21,7 +20,6 @@ const App = (props) => {
         {isAuth && <NavbarContainer />}
         <div className='app-wrapper-content'>
           <Routes>
-            <Route path="/" element={isAuth ? <Navigate to="/profile" /> : <Navigate to="/login" />} />
             <Route path="/profile/:userId?" element={<ProfileContainer />} />
             <Route path="/dialogs/*" element={<DialogsContainer />} />
             <Route path="/users" element={<UsersContainer />} />
@@ -34,5 +32,8 @@ const App = (props) => {
     </Router>
   );
 }
+const mapStateToProps = (state) => ({
+  isAuth: state.auth.isAuth,
+});
 
-export default App;
+export default connect(mapStateToProps)(App);
