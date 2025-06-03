@@ -1,5 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { combineReducers, applyMiddleware, compose } from "redux";
+import { configureStore, combineReducers} from "@reduxjs/toolkit";
 import { thunk } from "redux-thunk";
 import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";
